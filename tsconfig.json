@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "lib": ["ESNext"],
+        "target": "ESNext",
+        "moduleResolution": "NodeNext",
+        "module": "NodeNext",
+        "strict": false, //Es para que Typescript no sea tan estricto.
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "declaration": true
+
+    },
+    "include": ["src/**/*.ts"]    
+}
