@@ -6,7 +6,9 @@
   "author": "Stalin Chavez",
   "main": "index.js",
   "scripts": {
-    "start": "node --watch src/index.ts"
+    "dev": "node --watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
   },
   "dependencies": {
     "express": "^5.1.0",
