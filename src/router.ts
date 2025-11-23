@@ -15,7 +15,7 @@ router.get('/', (req, res) =>{
 })
 /** Autenticacion y registro */
 router.post('/auth/register', (req, res) =>{
-    console.log('Desde Register')
+    console.log(req.body)
 })
 
 
